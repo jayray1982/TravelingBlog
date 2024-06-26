@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    Height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .5fr .1fr 1fr 1fr .2fr;
+    grid-template-areas:
+    "Logo Logo Logo Logo"
+    "nav nav nav nav"
+    "Sidebar Content Content Content"
+    "Sidebar Content Content Content"
+    "Sidebar footer footer footer";
+    grid-gap: .5rem;
+}
+
+nav{
+    background-color:#e02626;
+    grid-area: nav;
+}
+
+footer {
+    background-color:black;
+    grid-area: footer;
+}
+
+#Logo {
+    background-color:#5f7e1c;
+    grid-area: Logo;
+}
+
+#Sidebar {
+    background-color: #cd6e6e;
+    grid-area: Sidebar;
+}
+
+#Content {
+    background-color: #d8d184;
+    grid-area: Content;
+}
+
+@media only screen and (max-width:500px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr .1fr .1fr 1fr .2fr;
+        grid-template-areas:
+        "Logo"
+        "nav"
+        "Sidebar"
+        "Content"
+        "footer";
+    }
+}
+

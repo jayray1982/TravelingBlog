@@ -1,0 +1,27 @@
+img {margin: 10px; box-shadow: 2px 2px 2px 2px lightgrey;}
+
+
+li {list-style-type: none; margin-left: -35px; }
+
+li Span {font-weight: bold;  }
+
+p {font-size: 12pt; text-wrap: wrap; margin:5px;}
+
+#Logo {background-image: url(../Images/Artistic_Jap_flag.jpg); Background-position: center;max-height: 300px;}
+
+.PostName {text-align: left; font-weight: bold; font-size: 20pt; Text-shadow: 1px 1px grey;  margin: 12px;}
+
+.fancy {font-size: 12pt; font-style: italic; text-wrap:wrap;}
+
+.cardlayout {display: flex; flex-wrap: wrap; }
+
+.Outercontainer {width:320px; border: 1px solid black; ; text-wrap: wrap; background-color:lightblue; box-shadow: 5px 5px 5px 5px lightgrey;}
+
+.blogcardcontainer {width:320px;  text-wrap: wrap; }
+
+
+.Innercontainer {text-align: left; border: 1px solid black; text-wrap: wrap; margin: 10px; padding:20px;background-color:lightgray; border-radius: 10px; box-shadow: 2px 2px 2px 2px grey;}
+
+.pagecolor {background-color:beige;}
+
+#postplaced {align-self:center;}
